@@ -1,0 +1,242 @@
+body{
+ font-family: Arial, Helvetica, sans-serif;
+ background-size: cover;
+ margin: 0px;
+ padding: 0px;
+}
+    /* personalização do index   */
+h1{
+    color: black;
+    text-align: center;
+}
+#imagem{
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    opacity: 0.5; 
+}
+.texto{
+    color: rgb(16, 16, 17);
+    text-align: center;
+    font: bold 22px arial, verdana, serif; 
+}
+.frase{
+    color: rgb(248, 13, 13);
+    text-align: center;
+    font: bold 22px arial, verdana, serif;
+}
+.palavra{
+    color: blue;
+    text-align: center;
+    font: bold 22px arial, verdana, serif;
+}
+    /* Menu */
+#na {
+    background-color: rgb(199, 184, 184);
+    position: relative;
+    left: 05px;  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #131212;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff0000;
+}
+    /*imagem lado a lado */
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  h2{
+    text-align: center;
+    font: normal 20px arial, verdana, serif; 
+    margin: 0px;
+  }
+  .pedra{
+    text-align: center;
+    font: bold 20px arial, serif;
+    margin: 0px;
+  }
+  hr{
+    border-color: #ff0000;
+  }
+        /*Formulario de longin*/
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    align-content: start;
+    justify-content: start;
+    margin: 0%;
+    padding: 0%;
+    width: 40%;
+    height:5vh;
+    
+}
+.formLogin {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(199, 184, 184);
+    border-radius: 7px;
+    padding: 20px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em;
+    font: bold 20px Arial, sans-serif;
+}
+.formLogin p {
+    display: inline-block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 25px;
+}
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn {
+    background-color: #39663f;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #060aff;
+
+}
+  /* !--Aprecentação de slider-- */
+
+  * { margin: 0; padding: 0; }
+  .slider {
+    display: block;
+    height: 293px;
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+.slider img {
+    margin: auto;
+    height: 70%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.slider input {
+    display: none;
+}
+.slider label {
+    background-color: #085F63;
+    bottom: 10px;
+    cursor: pointer;
+    display:block;
+    height: 10px;
+    position:relative;
+    width: 10px;
+    z-index: 10;
+}
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+}
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}
+      /*Tabela do Cardapio*/
+#cardapio{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    }
+    
+    table {
+    border-collapse: collapse;
+    margin: auto;
+    }
+    
+    th, td{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    }
+    
+    th{
+    font-weight: bold;
+    }
+    
+    
+    tr:nth-child(even) {
+    background-color: #DCEBE6;
+    }
+    
+    tr:hover:nth-child(1n + 2) {
+    background-color: #085F63;
+    color: #fff;
+    }
+
+
+
+
+    
+
+
+ 
